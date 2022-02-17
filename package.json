@@ -10,6 +10,7 @@
     "clean": "rm -fr dist/*",
     "prepublish": "npm run build",
     "pretest": "npm run build",
+    "prepare": "npm run build",
     "test": "mocha --recursive --full-trace --exit",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --fix",
